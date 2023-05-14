@@ -4,7 +4,6 @@ import Navbar from './components/navbar/Navbar.jsx'
 
 import './css-style/index.css'
 
-import workitiumCSS from './workitium-css/Workitium.css'
 import video_logo from'./0-ressources/logo_move.mp4'
 import icon from './0-ressources/icon logo.png'
 
@@ -35,7 +34,7 @@ function App() {
 
           <div class="main_download">
               <h4> Le Framework CSS </h4>
-              <a href={workitiumCSS} download="Workitium.css">
+              <a href="https://raw.githubusercontent.com/nixiz0/Workitium/main/Workitium.css" target="_blank" download="Workitium.css" rel="noreferrer">
                   <button class="btn-blue-custom btn_download"> Download </button>
               </a>
           </div>
