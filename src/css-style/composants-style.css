@@ -1,0 +1,142 @@
+/* Each Composants style */
+.the_composants {
+    margin-left: 15%;
+    margin-right: 0rem;
+}
+
+    .title_composant {
+        font-size: 2.5rem;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.65);
+    }
+
+    .txt_composant {
+        font-size: 1.4rem;
+        padding: 0.3em;
+        text-shadow: 0px 4px 4px rgba(0,0,0,0.65);
+    }
+
+    .extrait_composants {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+        .extrait_nav-logo {
+            margin-bottom: 0rem;
+            font-size: 0.8rem;
+        }
+
+    .code_composants textarea{
+        margin-top: 1rem;
+        background-color: #5a5a5a;
+        color: #00d0ff;
+        resize : none;
+        text-shadow: 0px 4px 5px rgba(0,0,0,0.65);
+        border-radius: 2%;
+        font-size: 0.83rem;
+    }
+
+    .btn_copy {
+        margin-left: 9rem;
+        margin-bottom: 5rem;
+    }
+
+    .copy {
+        min-width: 100px;
+        height: 40px;
+        color: #fff;
+        padding: 5px 10px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        display: inline-block;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        background: #01b2d9;
+        box-shadow: 0 4px #171717;
+        }
+
+        .copy:hover {
+        box-shadow: 0 3px #171717;
+        top: 1px;
+        }
+
+        .copy:active {
+        box-shadow: 0 0 #171717;
+        top: 5px;
+    }
+    
+
+@media (max-width:850px) {
+.the_composants {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 2rem;
+}
+
+    .title_composant {
+        font-size: 2.2rem;
+    }
+
+    .txt_composant {
+        font-size: 1.2rem;
+    }
+
+    .extrait_composants {
+        display: flex;
+        justify-content: center;
+    }
+
+    .extrait_nav-logo {
+        margin-bottom: 0rem;
+        font-size: 0.9rem;
+    }
+
+    .btn_copy {
+        margin-left: 0rem;
+    }
+}
+
+@media (max-width:599px) {
+.the_composants {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+    .title_composant {
+        font-size: 2rem;
+    }
+
+    .txt_composant {
+        font-size: 1rem;
+    }
+
+    .extrait_composants {
+        display: block;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .extrait_nav-logo {
+        margin-bottom: 1rem;
+        font-size: 1rem;
+    }
+
+    .code_composants textarea{
+        font-size: 0.65rem;
+    }
+}
+/* ------------ */
+
+/* Custom Class Composants */
+@media (max-width:599px) {
+    .nav-logo-custom {
+        height: 13em;
+    }
+
+    .nav-soustxt-custom {
+        height: 13em;
+    }
+}
+/* ------------ */

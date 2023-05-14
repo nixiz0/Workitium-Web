@@ -1,0 +1,101 @@
+/* NAV LOGO ############################# */
+.nav-logo_custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(0, 208, 255);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  position: relative;
+  width: 100%;
+  height: 6em;
+}
+
+.logo_custom {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 2em;
+  display: flex;
+}
+  /* RESIZE (depending on the image) */
+  .logo_custom img {
+      width: 5rem;
+      height: auto;
+  }
+
+  .logo_custom h2 {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+.nav-logo_custom ul {
+  display: flex;
+  list-style: none;
+  margin-right: 2em;
+  text-align: center;
+}
+
+.nav-logo_custom ul li {
+  margin: 0 10px;
+}
+
+.nav-logo_custom ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-logo_custom ul li a:hover {
+   color: rgb(211, 211, 211);
+}
+
+@media (max-width: 599px) {
+.nav-logo_custom {
+  flex-direction: column;
+  height: 11em;
+}
+  .logo_custom {
+      text-align: center;
+      margin-bottom: 0em;
+      margin-left: 0em;
+      margin-top: 0.2em;
+      display: block;
+  }
+
+  .logo_custom h2 {
+    display: none;
+  }
+
+      /* RESIZE (depending on the screen) */
+      .logo_custom img {
+          width: 4.5rem;
+          height: auto;
+      }
+  
+  .nav-logo_custom ul {
+      flex-direction: column;
+      margin-right: 0em;
+      padding: 0.5em;
+  }
+
+  .nav-logo_custom ul li {
+      margin: 0.4em 0;
+  }
+
+  .nav-logo_custom ul li a {
+    color: white;
+    font-size: 1.4em;
+  }
+  
+  .nav-logo_custom ul li a:hover {
+     color: rgb(211, 211, 211);
+  }
+}
+
+@media (min-width: 650px) {
+.nav-logo_custom ul li a {
+  font-size: 1.4em;
+}
+}
+/* --------- */
+
