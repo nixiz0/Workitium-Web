@@ -51,8 +51,11 @@ function FooterComposant() {
                           <ul>
                             {/* eslint-disable-next-line */}
                             <li><a href="#">Accueil</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">À propos</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Blog</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Contact</a></li>
                           </ul>
                         </div>
@@ -61,8 +64,11 @@ function FooterComposant() {
                           <ul class="basic_social-icons list-reset">
                             {/* eslint-disable-next-line */}
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
                           </ul>
                         </div>
@@ -177,16 +183,22 @@ function FooterComposant() {
                       <ul>
                         {/* eslint-disable-next-line */}
                         <li><a href="#">Accueil</a></li>
+                        {/* eslint-disable-next-line */}
                         <li><a href="#">À propos</a></li>
+                        {/* eslint-disable-next-line */}
                         <li><a href="#">Produits</a></li>
+                        {/* eslint-disable-next-line */}
                         <li><a href="#">Contact</a></li>
                       </ul>
                     </div>
                     <div class="vertical_social">
                       {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                     </div>
                     <div class="vertical_copyright">
@@ -245,13 +257,17 @@ function FooterComposant() {
                     <div class="rgpd_social">
                       {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                     </div>
                     <div class="rgpd">
                       {/* eslint-disable-next-line */}
                       <a href="#">Politique de confidentialité</a>
+                      {/* eslint-disable-next-line */}
                       <a href="#">Conditions d'utilisation</a>
                     </div>
                     <div class="rgpd_copyright">
