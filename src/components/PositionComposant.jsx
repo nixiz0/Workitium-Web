@@ -39,7 +39,7 @@ function PositionComposant() {
             <div class="extrait_composants">
                 <div class="txt_img_side" style={{fontSize: '2.5rem'}}>
                     <div class="txt_img_side-item">
-                        <img src="" alt="image exemple"/>
+                        <img src="" alt="exemple1"/>
                     </div>
                     <div class="txt_img_side-item">
                         <span> lorem ipsum </span>
@@ -84,15 +84,15 @@ function PositionComposant() {
             <div class="extrait_composants">
                 <div class="three-div" style={{fontSize: '1.5rem'}}>
                     <div class="three-div-item">
-                        <img src="" alt="image exemple1"/>
+                        <img src="" alt="exemple2"/>
                         <p> Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="three-div-item">
-                        <img src="" alt="image exemple2"/>
+                        <img src="" alt="exemple3"/>
                         <p> Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div class="three-div-item">
-                        <img src="" alt="image exemple3"/>
+                        <img src="" alt="exemple4"/>
                         <p> Lorem ipsum dolor sit amet.</p>
                     </div>
                   </div> 

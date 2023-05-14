@@ -36,7 +36,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <footer class="footer-basic" style={{padding:'0rem', padding:'1rem'}}>
+                <footer class="footer-basic" style={{padding:'1rem'}}>
                     <div class="basic_container">
                       <div class="basic_row">
                         <div class="basic_col">
@@ -58,10 +58,10 @@ function FooterComposant() {
                         <div class="basic_col">
                           <h3>Suivez-nous</h3>
                           <ul class="basic_social-icons list-reset">
-                            <li><a href="#" target="_blank"><img src="" alt="img logo réseaux"/></a></li>
-                            <li><a href="#" target="_blank"><img src="" alt="img logo réseaux"/></a></li>
-                            <li><a href="#" target="_blank"><img src="" alt="img logo réseaux"/></a></li>
-                            <li><a href="#" target="_blank"><img src="" alt="img logo réseaux"/></a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer"><img src="" alt="img logo réseaux"/></a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer"><img src="" alt="img logo réseaux"/></a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer"><img src="" alt="img logo réseaux"/></a></li>
+                            <li><a href="#" target="_blank" rel="noreferrer"><img src="" alt="img logo réseaux"/></a></li>
                           </ul>
                         </div>
                       </div>
@@ -180,10 +180,10 @@ function FooterComposant() {
                       </ul>
                     </div>
                     <div class="vertical_social">
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
                     </div>
                     <div class="vertical_copyright">
                       <p>Copyright © 2020 MonSite. Tous droits réservés.</p>
@@ -239,10 +239,10 @@ function FooterComposant() {
             <div class="extrait_composants">
                 <footer class="footer-rgpd">
                     <div class="rgpd_social">
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
-                      <a href="#" target="_blank"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
+                      <a href="#" target="_blank" rel="noreferrer"><img src="" alt="logo réseaux"/></a>
                     </div>
                     <div class="rgpd">
                       <a href="#">Politique de confidentialité</a>
