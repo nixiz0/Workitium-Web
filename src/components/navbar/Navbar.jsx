@@ -10,7 +10,7 @@ function Navbar() {
             <h2> Workitium </h2>
         </a>
         <ul>
-          <li><a to="/documentation">Documentation</a></li>
+          <li><a href="/documentation">Documentation</a></li>
           <li><a href="/composants">Composants</a></li>
         </ul>
     </nav>
