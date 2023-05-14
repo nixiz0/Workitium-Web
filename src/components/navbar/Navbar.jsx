@@ -12,6 +12,7 @@ function Navbar() {
         </Link>
         <ul>
           <li><Link to="/documentation">Documentation</Link></li>
+          {/* Must Change the Link into an href for local Coding */}
           <li><Link to="/composants">Composants</Link></li>
         </ul>
     </nav>
