@@ -37,13 +37,16 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                {/* eslint-disable-next-line */}
                 <nav class="nav-basic">
                     <div class="sous_nav">
                         <ul>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Accueil</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">À propos</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Produits</a></li>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </div>
@@ -88,13 +91,17 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
-                {/* eslint-disable-next-line */}
                 <nav class="nav-logo nav-logo-custom">
+                    {/* eslint-disable-next-line */}
                     <a href="#" class="logo"><img src="" alt="LOGO"/></a>
                     <ul>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Accueil</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">À propos</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Produits</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -137,11 +144,16 @@ function NavComposant() {
             <div class="extrait_composants extrait_nav-logo">
                 {/* eslint-disable-next-line */}
                 <nav class="nav_searchbar">
+                    {/* eslint-disable-next-line */}
                     <a href="#" class="searchbar_logo"><img src="" alt="LOGO"/></a>
                     <ul>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Accueil</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">À propos</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Produits</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Contact</a></li>
                     </ul>
                     <div class="search-container">
@@ -196,17 +208,25 @@ function NavComposant() {
             <div class="extrait_composants extrait_nav-logo">
                 {/* eslint-disable-next-line */}
                 <nav class="nav_soustxt nav-soustxt-custom">
+                    {/* eslint-disable-next-line */}
                     <a href="#" class="soustxt_logo"><img src="" alt="LOGO"/></a>
                     <ul id="ul_fixe" class="list-reset">
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Accueil</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">À propos</a></li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Produits</a>
                         <ul class="submenu list-reset">
+                          {/* eslint-disable-next-line */}
                           <li><a href="#">Catégorie 1</a></li>
+                          {/* eslint-disable-next-line */}
                           <li><a href="#">Catégorie 2</a></li>
+                          {/* eslint-disable-next-line */}
                           <li><a href="#">Catégorie 3</a></li>
                         </ul>
                       </li>
+                      {/* eslint-disable-next-line */}
                       <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
