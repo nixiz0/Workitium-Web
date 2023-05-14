@@ -3,7 +3,6 @@ import './componav.css'
 import {Link} from 'react-router-dom'
 
 function CompoNav() {
-    window.location.reload();
     return (
     <>
         <div id="scroll" class="scroll-div">
