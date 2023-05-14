@@ -37,6 +37,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <nav class="nav-basic">
                     <div class="sous_nav">
                         <ul>
@@ -87,6 +88,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
+                {/* eslint-disable-next-line */}
                 <nav class="nav-logo nav-logo-custom">
                     <a href="#" class="logo"><img src="" alt="LOGO"/></a>
                     <ul>
@@ -133,6 +135,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
+                {/* eslint-disable-next-line */}
                 <nav class="nav_searchbar">
                     <a href="#" class="searchbar_logo"><img src="" alt="LOGO"/></a>
                     <ul>
@@ -191,6 +194,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
+                {/* eslint-disable-next-line */}
                 <nav class="nav_soustxt nav-soustxt-custom">
                     <a href="#" class="soustxt_logo"><img src="" alt="LOGO"/></a>
                     <ul id="ul_fixe" class="list-reset">

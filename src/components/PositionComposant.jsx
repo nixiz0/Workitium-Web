@@ -37,6 +37,7 @@ function PositionComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <div class="txt_img_side" style={{fontSize: '2.5rem'}}>
                     <div class="txt_img_side-item">
                         <img src="" alt="exemple1"/>
@@ -82,6 +83,7 @@ function PositionComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <div class="three-div" style={{fontSize: '1.5rem'}}>
                     <div class="three-div-item">
                         <img src="" alt="exemple2"/>

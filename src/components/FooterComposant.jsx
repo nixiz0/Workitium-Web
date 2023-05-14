@@ -36,6 +36,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <footer class="footer-basic" style={{padding:'1rem'}}>
                     <div class="basic_container">
                       <div class="basic_row">
@@ -133,6 +134,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <footer class="footer-minimum" style={{padding: '1.2rem'}}>
                     <div>
                       <p>Copyright © 2023 MonSite. Tous droits réservés.</p>
@@ -170,6 +172,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <footer class="footer-vertical">
                     <div class="vertical_nav">
                       <ul>
@@ -237,6 +240,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
                 <footer class="footer-rgpd">
                     <div class="rgpd_social">
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
