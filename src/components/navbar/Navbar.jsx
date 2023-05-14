@@ -12,7 +12,7 @@ function Navbar() {
         </Link>
         <ul>
           <li><Link to="/documentation">Documentation</Link></li>
-          <li><Link target="_blank" to="/composants">Composants</Link></li>
+          <li><Link to="/composants">Composants</Link></li>
         </ul>
     </nav>
   )
