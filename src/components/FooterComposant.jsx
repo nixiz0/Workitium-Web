@@ -36,7 +36,6 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                {/* eslint-disable-next-line */}
                 <footer class="footer-basic" style={{padding:'1rem'}}>
                     <div class="basic_container">
                       <div class="basic_row">
@@ -50,6 +49,7 @@ function FooterComposant() {
                         <div class="basic_col">
                           <h3>Liens utiles</h3>
                           <ul>
+                            {/* eslint-disable-next-line */}
                             <li><a href="#">Accueil</a></li>
                             <li><a href="#">À propos</a></li>
                             <li><a href="#">Blog</a></li>
@@ -59,6 +59,7 @@ function FooterComposant() {
                         <div class="basic_col">
                           <h3>Suivez-nous</h3>
                           <ul class="basic_social-icons list-reset">
+                            {/* eslint-disable-next-line */}
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
                             <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
@@ -134,7 +135,6 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                {/* eslint-disable-next-line */}
                 <footer class="footer-minimum" style={{padding: '1.2rem'}}>
                     <div>
                       <p>Copyright © 2023 MonSite. Tous droits réservés.</p>
@@ -172,10 +172,10 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                {/* eslint-disable-next-line */}
                 <footer class="footer-vertical">
                     <div class="vertical_nav">
                       <ul>
+                        {/* eslint-disable-next-line */}
                         <li><a href="#">Accueil</a></li>
                         <li><a href="#">À propos</a></li>
                         <li><a href="#">Produits</a></li>
@@ -183,6 +183,7 @@ function FooterComposant() {
                       </ul>
                     </div>
                     <div class="vertical_social">
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
@@ -240,15 +241,16 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                {/* eslint-disable-next-line */}
                 <footer class="footer-rgpd">
                     <div class="rgpd_social">
+                      {/* eslint-disable-next-line */}
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                       <a href="#"><img src="#" alt="logo réseaux"/></a>
                     </div>
                     <div class="rgpd">
+                      {/* eslint-disable-next-line */}
                       <a href="#">Politique de confidentialité</a>
                       <a href="#">Conditions d'utilisation</a>
                     </div>
