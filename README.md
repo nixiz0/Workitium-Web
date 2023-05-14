@@ -10,6 +10,7 @@ To download the CSS file that contains the framework here is the link : https://
 ## Tech Stack
 
 **Build:** React, HTML, CSS, JavaScript
+
 **Packages:** NodeJS, React, React-router & React-helmet
 
 **Server:** Netlify
