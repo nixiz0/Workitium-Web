@@ -29,10 +29,10 @@ function FooterComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant FooterBasic --*/}
-            <h2 class="title_composant" id="footer-basic"> #FOOTER-BASIC </h2>
+            <h2 class="title_composant" id="footer-basic"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-BASIC </h2>
             <span class="txt_composant">
                 <p>
-                    Un Footer classique mais suffisant pour n'importe quels projets web.
+                    Un Footer <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>classique</b> mais suffisant pour n'importe quels projets web.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -133,11 +133,12 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterMinimum --*/}
-            <h2 class="title_composant" id="footer-minimum"> #FOOTER-MINIMUM </h2>
+            <h2 class="title_composant" id="footer-minimum"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-MINIMUM </h2>
             <span class="txt_composant">
                 <p>
-                    Le Footer minimum si vous nous souhaitez pas mettre d'informations ou autres dans votre
-                    Footer mais qu'il vous en faut quand même un alors ce Footer sera parfait pour vous.
+                    Le Footer minimum si vous nous souhaitez <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>pas mettre d'informations </b>
+                    ou autres dans votre Footer mais qu'il vous <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>en faut quand même un </b>
+                    alors ce Footer sera parfait pour vous.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -170,11 +171,12 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterVertical --*/}
-            <h2 class="title_composant" id="footer-vertical"> #FOOTER-VERTICAL </h2>
+            <h2 class="title_composant" id="footer-vertical"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-VERTICAL </h2>
             <span class="txt_composant">
                 <p>
-                    Un Footer vertical qui permet de mettre beaucoup d'informations, des liens pour vos réseaux sociaux
-                    mais aussi des autres liens pour les RGPD et autres informations.
+                    Un Footer <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>vertical</b> qui permet de mettre beaucoup 
+                    d'informations, des <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>liens pour vos réseaux sociaux </b> 
+                    mais aussi des <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>autres liens pour les RGPD</b> et autres informations.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -243,11 +245,11 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterRgpd --*/}
-            <h2 class="title_composant" id="footer-rgpd"> #FOOTER-RGPD </h2>
+            <h2 class="title_composant" id="footer-rgpd"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-RGPD </h2>
             <span class="txt_composant">
                 <p>
-                    Un Footer spécialement pour mettre le RGPD en avant, la sécurité et la protection des données
-                    des utilisateurs. 
+                    Un Footer spécialement pour mettre le <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>RGPD en avant</b>, 
+                    la <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>sécurité et la protection des données</b> des utilisateurs. 
                     <br/>
                     Et vous pouvez aussi ajouter vos réseaux sociaux.
                 </p> 

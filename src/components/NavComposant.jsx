@@ -33,11 +33,11 @@ function NavComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant NavBasic --*/}
-            <h2 class="title_composant" id="nav-basic"> #NAV-BASIC </h2>
+            <h2 class="title_composant" id="nav-basic"> <b style={{color: '#00BBE5'}}>#NAV</b>-BASIC</h2>
             <span class="txt_composant">
                 <p>
-                    NavBar classique avec un texte au centre horizontale qui va passer à la
-                    verticale en format téléphone.
+                    NavBar classique avec un texte au <b style={{color: '#00d0ff'}}>centre horizontale</b> qui va passer à la
+                    <b style={{color: '#00d0ff'}}>verticale en format téléphone</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -73,12 +73,14 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavLogo --*/}
-            <h2 class="title_composant" id="nav-logo"> #NAV-LOGO </h2>
+            <h2 class="title_composant" id="nav-logo"><b style={{color: '#00BBE5'}}>#NAV</b>-LOGO </h2>
             <span class="txt_composant">
                 <p>
-                    Voici une NavBar qui possède un logo sous format d'une image que vous avez
-                    juste à rajouter.
-                    Le logo sera au dessus et le texte en dessous à la verticale en format mobile.
+                    Voici une NavBar qui possède un <b style={{color: '#00d0ff'}}>logo</b> sous format d'une image que vous avez
+                    juste <b style={{color: '#00d0ff'}}>à rajouter</b>.
+                    <br/>
+                    Le logo sera <b style={{color: '#00d0ff'}}>au dessus</b> et le texte <b style={{color: '#00d0ff'}}>en dessous </b> 
+                    à la verticale <b style={{color: '#00d0ff'}}>en format mobile</b>.
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
@@ -111,12 +113,13 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavSearchbar --*/}
-            <h2 class="title_composant" id="nav_searchbar"> #NAV-SEARCHBAR </h2>
+            <h2 class="title_composant" id="nav_searchbar"><b style={{color: '#00BBE5'}}>#NAV</b>-SEARCHBAR </h2>
             <span class="txt_composant">
                 <p>
-                    Ici vous avez une NavBar qui possède une barre de recherche pour
+                    Ici vous avez une NavBar qui possède une <b style={{color: '#00BBE5'}}>barre de recherche</b> pour
                     pouvoir faire des recherches dynamiques au seins de votre site.
-                    Elle disparaît quand on passe en format téléphone et tablette.
+                    <br/>
+                    Elle disparaît quand on passe en <b style={{color: '#00BBE5'}}>format téléphone et tablette</b>.
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
@@ -155,12 +158,13 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavSousTxt --*/}
-            <h2 class="title_composant" id="nav_soustxt"> #NAV-SOUS-TXT </h2>
+            <h2 class="title_composant" id="nav_soustxt"><b style={{color: '#00BBE5'}}>#NAV</b>-SOUS-TXT </h2>
             <span class="txt_composant">
                 <p>
-                    La NavBar sous txt (pour texte) permet d'avoir une NavBar qui possède un sous menu
-                    qui, dès lors que l'on passe notre souris dessus nous donne d'autres liens.
-                    Cela fonctionne dans tous les formats d'écrans.
+                    La NavBar sous txt permet d'avoir une NavBar qui possède un <b style={{color: '#00BBE5'}}>sous menu </b> 
+                    qui, dès lors que l'on passe notre souris dessus <b style={{color: '#00BBE5'}}>nous donne d'autres liens</b>.
+                    <br/>
+                    Cela fonctionne dans <b style={{color: '#00BBE5'}}>tous les formats d'écrans</b>.
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">

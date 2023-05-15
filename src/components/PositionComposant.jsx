@@ -29,11 +29,12 @@ function PositionComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant TxtImgSide --*/}
-            <h2 class="title_composant" id="txt_img_side"> #TXT_IMG_SIDE </h2>
+            <h2 class="title_composant" id="txt_img_side"><b style={{color: 'rgba(0, 137, 255, 0.89)'}}>#</b>TXT_IMG_SIDE </h2>
             <span class="txt_composant">
                 <p>
-                    Classe permettant de placer une image à côté d'un texte et de s'adapter en Responsive, ce 
-                    qui va permettre au texte de passer en dessous de l'image
+                    Classe permettant de <b style={{color: 'rgba(0, 137, 255, 0.89)'}}>placer une image à côté d'un texte </b> 
+                    et de <b style={{color: 'rgba(0, 137, 255, 0.89)'}}>s'adapter en Responsive</b>, ce qui 
+                    va permettre au texte de passer en dessous de l'image
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -75,10 +76,11 @@ function PositionComposant() {
             {/*---------------*/}
 
             {/*-- Composant ThreeDiv --*/}
-            <h2 class="title_composant" id="three-div"> #THREE-DIV</h2>
+            <h2 class="title_composant" id="three-div"><b style={{color: 'rgba(0, 137, 255, 0.89)'}}>#</b>THREE-DIV</h2>
             <span class="txt_composant">
                 <p>
-                    Classe permettant de placer 3 div une à côté de l'autre et qui devient Responsive en se plaçant
+                    Classe permettant de <b style={{color: 'rgba(0, 137, 255, 0.89)'}}>placer 3 div une à côté de l'autre </b>
+                    et qui devient Responsive en se plaçant
                     l'une en dessous de l'autre quand on passe en format mobile.
                 </p> 
             </span>

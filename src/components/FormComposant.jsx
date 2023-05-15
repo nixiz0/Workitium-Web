@@ -29,14 +29,15 @@ function FormComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant FormBasic --*/}
-            <h2 class="title_composant" id="form-basic"> #FORM-BASIC </h2>
+            <h2 class="title_composant" id="form-basic"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-BASIC </h2>
             <span class="txt_composant">
                 <p>
-                    Classe permettant de créer un formulaire basique, qui va s'adapter pour tout type d'écrans.
+                    Classe permettant de créer un formulaire basique, qui va 
+                    <b style={{color: 'rgba(0, 255, 136, 0.65)'}}> s'adapter pour tout type d'écrans</b>.
                     <br/>
                     Vous pouvez bien évidemment rajouter des champs,
                     <br/>
-                    il suffit juste d'inclure la même classe que dans les autres div.
+                    il suffit juste d'inclure la <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>même classe que dans les autres div</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -91,10 +92,10 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormPassword --*/}
-            <h2 class="title_composant" id="form-password"> #FORM-PASSWORD </h2>
+            <h2 class="title_composant" id="form-password"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-PASSWORD </h2>
             <span class="txt_composant">
                 <p>
-                    Classe formulaire qui inclut un input de mot de passe.
+                    Classe formulaire qui inclut un <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>input de mot de passe</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -167,10 +168,12 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormConnexion --*/}
-            <h2 class="title_composant" id="form-connexion"> #FORM-CONNEXION </h2>
+            <h2 class="title_composant" id="form-connexion"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONNEXION </h2>
             <span class="txt_composant">
                 <p>
-                    Formulaire de connexion avec les champs classiques requis pour se connecter à son site.
+                    Formulaire de <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>connexion </b> 
+                    avec les champs classiques requis pour 
+                    se <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>connecter à son site</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
@@ -215,10 +218,10 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormContact --*/}
-            <h2 class="title_composant" id="form-contact"> #FORM-CONTACT </h2>
+            <h2 class="title_composant" id="form-contact"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONTACT </h2>
             <span class="txt_composant">
                 <p>
-                    Un formulaire de contact avec un style moderne.
+                    Un formulaire de contact avec un <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>style moderne</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
