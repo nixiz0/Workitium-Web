@@ -8,6 +8,10 @@ import '../css-style/composants.css'
 import '../css-style/composants-style.css'
 import '../workitium-css/Workitium.css'
 import icon_composant from '../0-ressources/icon logo composants.png'
+import nav_basic from '../0-ressources/composants-ressources/navbar-basic.png'
+import nav_logo from '../0-ressources/composants-ressources/navbar-logo.png'
+import nav_searchbar from '../0-ressources/composants-ressources/navbar-searchbar.png'
+import nav_soustxt from '../0-ressources/composants-ressources/navbar-soustxt.png'
 
 function NavComposant() {
   function copyTextarea(id) {
@@ -37,20 +41,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <nav class="nav-basic">
-                    <div class="sous_nav">
-                        <ul>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Accueil</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">À propos</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Produits</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                <img src={nav_basic} alt="Basic navbar" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant--*/}
@@ -91,20 +82,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
-                <nav class="nav-logo nav-logo-custom">
-                    {/* eslint-disable-next-line */}
-                    <a href="#" class="logo"><img src="" alt="LOGO"/></a>
-                    <ul>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Accueil</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">À propos</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Produits</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+                <img src={nav_logo} alt="Logo navbar" />
             </div>
             <div class="code_composants">
                 {/*-- Textarea code composant--*/}
@@ -142,27 +120,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
-                {/* eslint-disable-next-line */}
-                <nav class="nav_searchbar">
-                    {/* eslint-disable-next-line */}
-                    <a href="#" class="searchbar_logo"><img src="" alt="LOGO"/></a>
-                    <ul>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Accueil</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">À propos</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Produits</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                    <div class="search-container">
-                      <form>
-                        <input type="text" placeholder="Rechercher..."/>
-                        <button type="submit"> Envoie </button>
-                      </form>
-                    </div>
-                </nav>
+                <img src={nav_searchbar} alt="Searchbar navbar" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant --*/}
@@ -206,30 +164,7 @@ function NavComposant() {
                 </p> 
             </span>
             <div class="extrait_composants extrait_nav-logo">
-                {/* eslint-disable-next-line */}
-                <nav class="nav_soustxt nav-soustxt-custom">
-                    {/* eslint-disable-next-line */}
-                    <a href="#" class="soustxt_logo"><img src="" alt="LOGO"/></a>
-                    <ul id="ul_fixe" class="list-reset">
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Accueil</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">À propos</a></li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Produits</a>
-                        <ul class="submenu list-reset">
-                          {/* eslint-disable-next-line */}
-                          <li><a href="#">Catégorie 1</a></li>
-                          {/* eslint-disable-next-line */}
-                          <li><a href="#">Catégorie 2</a></li>
-                          {/* eslint-disable-next-line */}
-                          <li><a href="#">Catégorie 3</a></li>
-                        </ul>
-                      </li>
-                      {/* eslint-disable-next-line */}
-                      <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
+                <img src={nav_soustxt} alt="SousTxt navbar" />
             </div>
             <div class="code_composants">
                 {/*Textarea code composant*/}
