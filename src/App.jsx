@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <div class="presentation">
           <div>
-              <video class="main_logo" muted="" autoPlay="autoPlay" loop>
+              <video class="main_logo" muted autoPlay loop>
                 <source src={video_logo} type="video/mp4"/>
               </video>
           </div>
