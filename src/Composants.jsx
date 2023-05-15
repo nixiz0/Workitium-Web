@@ -25,7 +25,7 @@ function Composants() {
             <div class="welcome_composants">
                 <h2> Bienvenue dans les composants Workitium </h2>
                 <p>
-                    Vous pouvez retrouver tous les <b style={{color: '#00d0ff'}}>composants officiels</b>  du framework,
+                    Vous pouvez retrouver tous les <b style={{color: '#00d0ff'}}>composants officiels</b> du framework,
                     <b style={{color: '#00d0ff'}}> entièrement Responsive</b> qui sont à votre disposition !
                 </p>
                 <br/>

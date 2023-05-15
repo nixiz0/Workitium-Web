@@ -37,7 +37,7 @@ function NavComposant() {
             <span class="txt_composant">
                 <p>
                     NavBar classique avec un texte au <b style={{color: '#00d0ff'}}>centre horizontale</b> qui va passer à la
-                    <b style={{color: '#00d0ff'}}>verticale en format téléphone</b>.
+                    <b style={{color: '#00d0ff'}}> verticale en format téléphone</b>.
                 </p> 
             </span>
             <div class="extrait_composants">
