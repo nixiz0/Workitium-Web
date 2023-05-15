@@ -131,43 +131,43 @@ function Documentation() {
                 </p>
                 <br/>
                 <p>
-                    <b class="code_class_css">pright-1</b> : Padding right 1rem.
+                    <b class="code_class_css">pright-1</b> : padding-right 1rem.
                 </p>
                 <p>
-                    <b class="code_class_css">pright-2</b> : Padding right 2rem.
+                    <b class="code_class_css">pright-2</b> : padding-right 2rem.
                 </p>
                 <p>
-                    <b class="code_class_css">pright-3</b> : Padding right 3rem.
-                </p>
-                <br/>
-                <p>
-                    <b class="code_class_css">pleft-1</b> : Padding left 1rem.
-                </p>
-                <p>
-                    <b class="code_class_css">pleft-2</b> : Padding left 2rem.
-                </p>
-                <p>
-                    <b class="code_class_css">pleft-3</b> : Padding left 3rem.
+                    <b class="code_class_css">pright-3</b> : padding-right 3rem.
                 </p>
                 <br/>
                 <p>
-                    <b class="code_class_css">ptop-1</b> : Padding top 1rem.
+                    <b class="code_class_css">pleft-1</b> : padding-left 1rem.
                 </p>
                 <p>
-                    <b class="code_class_css">ptop-2</b> : Padding top 2rem.
+                    <b class="code_class_css">pleft-2</b> : padding-left 2rem.
                 </p>
                 <p>
-                    <b class="code_class_css">ptop-3</b> : Padding top 3rem.
+                    <b class="code_class_css">pleft-3</b> : padding-left 3rem.
                 </p>
                 <br/>
                 <p>
-                    <b class="code_class_css">pbottom-1</b> : Padding bottom 1rem.
+                    <b class="code_class_css">ptop-1</b> : padding-top 1rem.
                 </p>
                 <p>
-                    <b class="code_class_css">pbottom-2</b> : Padding bottom 2rem.
+                    <b class="code_class_css">ptop-2</b> : padding-top 2rem.
                 </p>
                 <p>
-                    <b class="code_class_css">pbottom-3</b> : Padding bottom 3rem.
+                    <b class="code_class_css">ptop-3</b> : padding-top 3rem.
+                </p>
+                <br/>
+                <p>
+                    <b class="code_class_css">pbottom-1</b> : padding-bottom 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pbottom-2</b> : padding-bottom 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pbottom-3</b> : padding-bottom 3rem.
                 </p>
             </div>
             {/*--------------*/}
