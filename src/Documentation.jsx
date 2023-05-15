@@ -129,6 +129,46 @@ function Documentation() {
                 <p>
                     <b class="code_class_css">p5</b> : Padding 3rem.
                 </p>
+                <br/>
+                <p>
+                    <b class="code_class_css">pright-1</b> : Padding right 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pright-2</b> : Padding right 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pright-3</b> : Padding right 3rem.
+                </p>
+                <br/>
+                <p>
+                    <b class="code_class_css">pleft-1</b> : Padding left 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pleft-2</b> : Padding left 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pleft-3</b> : Padding left 3rem.
+                </p>
+                <br/>
+                <p>
+                    <b class="code_class_css">ptop-1</b> : Padding top 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">ptop-2</b> : Padding top 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">ptop-3</b> : Padding top 3rem.
+                </p>
+                <br/>
+                <p>
+                    <b class="code_class_css">pbottom-1</b> : Padding bottom 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pbottom-2</b> : Padding bottom 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">pbottom-3</b> : Padding bottom 3rem.
+                </p>
             </div>
             {/*--------------*/}
 
@@ -138,6 +178,22 @@ function Documentation() {
                 <p class="p_presentation">
                     Classe permettant d'appliquer différents margin de différents côtés rapidement.
                 </p>
+                <p>
+                    <b class="code_class_css">m1</b> : Margin 1rem.
+                </p>
+                <p>
+                    <b class="code_class_css">m2</b> : Margin 2rem.
+                </p>
+                <p>
+                    <b class="code_class_css">m3</b> : Margin 3rem.
+                </p>
+                <p>
+                    <b class="code_class_css">m4</b> : Margin 4rem.
+                </p>
+                <p>
+                    <b class="code_class_css">m5</b> : Margin 5rem.
+                </p>
+                <br/>
                 <p>
                     <b class="code_class_css">mright-1</b> : margin-right 1rem.
                 </p>

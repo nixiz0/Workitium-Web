@@ -142,11 +142,78 @@
     padding: 3rem;
 }
 
+.pright-1 {
+  padding-right: 1rem;
+}
+
+.pright-2 {
+  padding-right: 2rem;
+}
+
+.pright-3 {
+  padding-right: 3rem;
+}
+
+.pleft-1 {
+  padding-left: 1rem;
+}
+
+.pleft-2 {
+  padding-left: 2rem;
+}
+
+.pleft-3 {
+  padding-left: 3rem;
+}
+
+.ptop-1 {
+  padding-top: 1rem;
+}
+
+.ptop-2 {
+  padding-top: 2rem;
+}
+
+.ptop-3 {
+  padding-top: 3rem;
+}
+
+.pbottom-1 {
+  padding-bottom: 1rem;
+}
+
+.pbottom-2 {
+  padding-bottom: 2rem;
+}
+
+.pbottom-3 {
+  padding-bottom: 3rem;
+}
+
 
 
 /****************************************************************************/
 /* CLASS MARGIN ####################################################*/
 /***************************************************************************/
+.m1 {
+  margin: 1rem;
+}
+
+.m2 {
+  margin: 2rem;
+}
+
+.m3 {
+  margin: 3rem;
+}
+
+.m4 {
+  margin: 4rem;
+}
+
+.m5 {
+  margin: 5rem;
+}
 
 .mright-1 {
     margin-right: 1rem;
