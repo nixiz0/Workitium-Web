@@ -720,6 +720,154 @@
 }
 
 
+/* NAV EXTEND ############################# */
+.nav_extend-off {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  padding: 1em;
+  width: 92.3%;
+}
+
+  .nav_extend-off img {
+      margin-left: 1em;
+      width: 2em;
+      height: auto;
+  }
+
+  .nav_extend-off img:active {
+      margin-left: 1em;
+      width: 1.5em;
+      height: auto;
+  }
+
+.nav_extend {
+  background-color: rgb(50, 50, 50);
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  padding: 0.8em;
+  border-radius: 0%;
+  width: 92.3%;
+  animation-name: SlideRight;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+.nav_extend_img {
+
+}
+  .nav_extend_img img {
+      margin-left: 1em;
+      width: 2em;
+      height: auto;
+  }
+
+  .nav_extend_img img:active {
+      margin-left: 1em;
+      width: 1.5em;
+      height: auto;
+  }
+
+.nav_extend_ul ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+  .nav_extend_ul li {
+      padding: 0.5em;
+      list-style: none;
+      margin-bottom: 0.5em;
+      background-color: rgb(124, 124, 124);
+      border-radius: 3%;
+  }
+
+  .nav_extend_ul li:hover {
+      padding: 0.65em;
+      margin-bottom: 0.65em;
+      background-color: rgb(102, 102, 102);
+      transition: all 0.1s ease-in-out;
+  }
+
+  .nav_extend_ul a {
+      text-decoration: none;
+      color: rgb(231, 231, 231);
+  }
+
+.nav_extend_show {
+  display: absolute;
+}
+
+.nav_extend_none {
+  display: none;
+}
+
+@media (min-width:450px) {
+  .nav_extend-off {
+      left: -1%;
+      top: 2%;
+      padding: 2em;
+      width: auto;
+  }
+  
+      .nav_extend-off img {
+          margin-left: 1em;
+          width: 10%;
+          height: auto;
+      }
+
+  .nav_extend {
+      background-color: rgb(50, 50, 50);
+      left: -1%;
+      top: 2%;
+      padding: 2em;
+      border-radius: 2%;
+      width: auto;
+  }
+  
+  .nav_extend_img {
+  
+  }
+      .nav_extend_img img {
+          margin-left: 1em;
+          width: 10%;
+          height: auto;
+      }
+  
+  .nav_extend_ul {
+      margin-top: 1em;
+      font-size: 1.1em;
+  }
+  
+      .nav_extend_ul li {
+          padding: 0.5em;
+          list-style: none;
+          margin-bottom: 0.5em;
+          background-color: rgb(124, 124, 124);
+          border-radius: 3%;
+      }
+  
+      .nav_extend_ul a {
+          text-decoration: none;
+          color: rgb(231, 231, 231);
+      }
+}
+
+
+@keyframes SlideRight{
+  0% {
+      left: -100%;
+    }
+    100% {
+      left: -1;
+    }
+}
+
+
 
 /********************************************/
 /* CLASS FORMS #################*/

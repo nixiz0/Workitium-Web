@@ -16,6 +16,7 @@ function CompoNav() {
                     <li><Link class="nav_btn" to="/composants/navbar/#nav-logo">nav-logo</Link></li>
                     <li><Link class="nav_btn" to="/composants/navbar/#nav_searchbar">nav_searchbar</Link></li>
                     <li><Link class="nav_btn" to="/composants/navbar/#nav_soustxt">nav_soustxt</Link></li>
+                    <li><Link class="nav_btn" to="/composants/navbar/#nav_extend">nav_extend</Link></li>
                     {/*######### FIN NAVBAR ##############*/}
 
                 </ul>
