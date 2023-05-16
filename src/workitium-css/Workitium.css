@@ -3,7 +3,7 @@
 /***************************************************************************/
 /*(remove the default css add by browsers)*/
 
-.reset-html {
+.reset {
     padding: 0;
     margin: 0;
     list-style: none;

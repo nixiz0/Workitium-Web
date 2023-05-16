@@ -28,7 +28,7 @@ function Documentation() {
                     Classe permettant de supprimer le CSS par défaut ajouter par les navigateurs dans les balises html.
                 </p>
                 <p>
-                    <b class="code_class_css">reset-html</b> : Supprime le margin et padding par défaut mis sur une page web.
+                    <b class="code_class_css">reset</b> : Supprime le margin et padding par défaut mis sur une page web.
                 </p>
                 <p>
                     <b class="code_class_css">h1-reset / h2-reset / h3-reset / h4-reset / h5-reset / h6-reset</b> : 
