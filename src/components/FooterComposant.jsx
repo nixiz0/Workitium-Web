@@ -8,6 +8,10 @@ import '../css-style/composants.css'
 import '../css-style/composants-style.css'
 import '../workitium-css/Workitium.css'
 import icon_composant from '../0-ressources/icon logo composants.png'
+import footer_basic from '../0-ressources/composants-ressources/footer_basic.png'
+import footer_minimum from '../0-ressources/composants-ressources/footer_minimum.png'
+import footer_vertical from '../0-ressources/composants-ressources/footer_vertical.png'
+import footer_rgpd from '../0-ressources/composants-ressources/footer_rgpd.png'
 import footer_soustxt from '../0-ressources/composants-ressources/footer_soustxt.png'
 
 function FooterComposant() {
@@ -37,48 +41,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <footer class="footer-basic" style={{padding:'1rem'}}>
-                    <div class="basic_container">
-                      <div class="basic_row">
-                        <div class="basic_col">
-                          <h3>A propos</h3>
-                          <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas at elit lectus. Aliquam at blandit dui. 
-                            Sed iaculis quam nisi, in egestas leo tempus a.
-                          </p>
-                        </div>
-                        <div class="basic_col">
-                          <h3>Liens utiles</h3>
-                          <ul>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Accueil</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">À propos</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Blog</a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#">Contact</a></li>
-                          </ul>
-                        </div>
-                        <div class="basic_col">
-                          <h3>Suivez-nous</h3>
-                          <ul class="basic_social-icons list-reset">
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
-                            {/* eslint-disable-next-line */}
-                            <li><a href="#"><img src="#" alt="img logo réseaux"/></a></li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="basic_copyright">
-                        <p>Copyright &copy; 2023. Tous droits réservés.</p>
-                    </div>
-                </footer>
+                <img src={footer_basic} alt="Footer basic" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant--*/}
@@ -143,11 +106,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <footer class="footer-minimum" style={{padding: '1.2rem'}}>
-                    <div>
-                      <p>Copyright © 2023 MonSite. Tous droits réservés.</p>
-                    </div>
-                </footer>
+                <img src={footer_minimum} alt="Footer minimum" />
             </div>
             <div class="code_composants">
                 {/*-- Textarea code composant--*/}
@@ -181,33 +140,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <footer class="footer-vertical">
-                    <div class="vertical_nav">
-                      <ul>
-                        {/* eslint-disable-next-line */}
-                        <li><a href="#">Accueil</a></li>
-                        {/* eslint-disable-next-line */}
-                        <li><a href="#">À propos</a></li>
-                        {/* eslint-disable-next-line */}
-                        <li><a href="#">Produits</a></li>
-                        {/* eslint-disable-next-line */}
-                        <li><a href="#">Contact</a></li>
-                      </ul>
-                    </div>
-                    <div class="vertical_social">
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                    </div>
-                    <div class="vertical_copyright">
-                      <p>Copyright © 2020 MonSite. Tous droits réservés.</p>
-                    </div>
-                </footer>
+                <img src={footer_vertical} alt="Footer vertical" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant --*/}
@@ -256,27 +189,7 @@ function FooterComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <footer class="footer-rgpd">
-                    <div class="rgpd_social">
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#"><img src="#" alt="logo réseaux"/></a>
-                    </div>
-                    <div class="rgpd">
-                      {/* eslint-disable-next-line */}
-                      <a href="#">Politique de confidentialité</a>
-                      {/* eslint-disable-next-line */}
-                      <a href="#">Conditions d'utilisation</a>
-                    </div>
-                    <div class="rgpd_copyright">
-                      <p>Copyright © 2020 MonSite. Tous droits réservés.</p>
-                    </div>
-                </footer>
+                <img src={footer_rgpd} alt="Footer rgpd" />
             </div>
             <div class="code_composants">
                 {/*Textarea code composant*/}
