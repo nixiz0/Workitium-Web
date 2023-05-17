@@ -25,7 +25,7 @@ function CompoNav() {
     }, []);
   
     useEffect(() => {
-      if (windowWidth < 599) {
+      if (windowWidth < 850) {
         setNavbarVisible(false);
       } else {
         setNavbarVisible(true);
