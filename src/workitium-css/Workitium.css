@@ -1479,6 +1479,115 @@
 }
 
 
+/* FOOTER-SOUSTXT ########################### */
+.main_footer_soustxt {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+  color: rgb(231, 231, 231);
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+
+.footer_align_txt_img {
+
+}
+
+  .footer_align_txt_img h4 {
+      font-size: 1em;
+      text-align: center;
+  }
+
+  .footer_img {
+      margin-top: 1em;
+      margin-bottom: 1em;
+      text-align: center;
+  } 
+
+      .footer_img img {
+          width: 2em;
+          height: auto;
+      }
+  
+  .footer_txt {
+      text-align: center;
+      font-size: 0.9em;
+  }
+
+      .sous_txt {
+          padding: 0.5em;
+      }
+
+          .sous_txt a {
+              text-decoration: none;
+              color: rgb(231, 231, 231);
+          }
+
+          .sous_txt a:hover {
+              color: rgb(175, 175, 175);
+          }
+          
+.links_contains {
+  cursor: pointer;
+}
+
+  .links_contains:hover {
+      color: rgb(175, 175, 175);
+  }
+
+.ul_links {
+  padding: 0.5em;
+}
+
+  .ul_links a {
+      margin-top: 0.5em;
+      text-decoration: none;
+      color: rgb(0, 178, 227);
+      transition: all 0.2s ease-in-out;
+  }
+
+  .ul_links a:hover {
+      text-decoration: underline;
+      color: rgb(0, 129, 165);
+      transition: all 0.2s ease-in-out;
+  }
+
+
+@media (min-width:450px) {
+
+.footer_align_txt_img {
+  
+}
+
+  .footer_align_txt_img h4 {
+      font-size: 1.5em;
+  }
+
+  .footer_img {
+      margin-top: 1em;
+      margin-bottom: 1em;
+  } 
+
+      .footer_img img {
+          width: 3em;
+          height: auto;
+      }
+  
+  .footer_txt {
+      text-align: center;
+      font-size: 1.1em;
+  }
+
+      .sous_txt {
+          padding: 0.5em;
+      }
+
+          .sous_txt a {
+              text-decoration: none;
+          }
+}
+
+
 
 /****************************************************************************/
 /* CLASS POSITION BLOCK ########################################*/

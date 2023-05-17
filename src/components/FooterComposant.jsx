@@ -8,6 +8,7 @@ import '../css-style/composants.css'
 import '../css-style/composants-style.css'
 import '../workitium-css/Workitium.css'
 import icon_composant from '../0-ressources/icon logo composants.png'
+import footer_soustxt from '../0-ressources/composants-ressources/footer_soustxt.png'
 
 function FooterComposant() {
   function copyTextarea(id) {
@@ -305,6 +306,77 @@ function FooterComposant() {
                 {/*---------------*/}
                 <div class="btn_copy">
                     <button onClick={() => copyTextarea('textarea4')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant FooterSousTxt --*/}
+            <h2 class="title_composant"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-SOUSTXT </h2>
+            <span class="txt_composant">
+                <p>
+                    Un Footer permettant d'avoir un <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>sous menu</b>.
+                    <br/>
+                    Complètement responsive, le dernier lien est cliquable et permet de déployer d'autres liens.
+                    <br/>
+                    Attention à ne pas oublier à mettre le <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>JavaScript dans un script</b>.
+                </p> 
+            </span>
+            <div class="extrait_composants">
+                <img src={footer_soustxt} alt="Footer soustxt" />
+            </div>
+            <div class="code_composants">
+                {/*Textarea code composant*/}
+                <textarea
+                name="code"
+                id="textarea5"
+                cols="51"
+                rows="15"
+                readOnly
+                value={`<footer class="main_footer_soustxt">
+  <div class="footer_align_txt_img">
+    <h4> Footer Text </h4>
+    <div class="footer_img">
+        <a href="#" target="_blank"><img src="" alt="facebook icon"></a> 
+        <a href="#" target="_blank"><img src="" alt="twitter icon"></a> 
+        <a href="#" target="_blank"><img src="" alt="youtube icon"></a>
+        <a href="#" target="_blank"><img src="" alt="instagram icon"></a>
+    </div>
+    <div class="footer_txt">
+        <div class="sous_txt">
+            <a href="#"> Contact </a>
+        </div>
+        <div class="sous_txt">
+            <a href="#"> Mentions légales </a>
+        </div>
+        <div class="sous_txt">
+            <div class="links_contains" onclick="toggleText()">Liens supplémentaires</div>
+            <div id="hiddenText" style="display: none;">
+            <ul class="ul_links">
+                <li><a href="#" target="_blank"> autres liens </a></li>
+                <li><a href="#" target="_blank"> liens divers </a></li>
+                <li><a href="#" target="_blank"> lien supplémentaire </a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</footer>
+
+<!--SCRIPT JAVASCRIPT-->
+var texteDeployable = document.getElementById("texte-deployable");
+var texteClic = document.querySelector(".texte-clic");
+function toggleText() {
+    var hiddenText = document.getElementById("hiddenText");
+    if (hiddenText.style.display === "none") {
+        hiddenText.style.display = "block";
+    } else {
+        hiddenText.style.display = "none";
+    }
+}
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea5')} class="copy">Copy</button>
                 </div>
             </div>
             {/*---------------*/}
