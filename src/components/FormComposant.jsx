@@ -29,7 +29,7 @@ function FormComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant FormBasic --*/}
-            <h2 class="title_composant" id="form-basic"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-BASIC </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-BASIC </h2>
             <span class="txt_composant">
                 <p>
                     Classe permettant de créer un formulaire basique, qui va 
@@ -92,7 +92,7 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormPassword --*/}
-            <h2 class="title_composant" id="form-password"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-PASSWORD </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-PASSWORD </h2>
             <span class="txt_composant">
                 <p>
                     Classe formulaire qui inclut un <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>input de mot de passe</b>.
@@ -168,7 +168,7 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormConnexion --*/}
-            <h2 class="title_composant" id="form-connexion"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONNEXION </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONNEXION </h2>
             <span class="txt_composant">
                 <p>
                     Formulaire de <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>connexion </b> 
@@ -218,7 +218,7 @@ function FormComposant() {
             {/*---------------*/}
 
             {/*-- Composant FormContact --*/}
-            <h2 class="title_composant" id="form-contact"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONTACT </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(0, 255, 136, 0.65)'}}>#FORM</b>-CONTACT </h2>
             <span class="txt_composant">
                 <p>
                     Un formulaire de contact avec un <b style={{color: 'rgba(0, 255, 136, 0.65)'}}>style moderne</b>.

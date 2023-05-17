@@ -34,7 +34,7 @@ function NavComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant NavBasic --*/}
-            <h2 class="title_composant" id="nav-basic"> <b style={{color: '#00BBE5'}}>#NAV</b>-BASIC</h2>
+            <h2 class="title_composant"> <b style={{color: '#00BBE5'}}>#NAV</b>-BASIC</h2>
             <span class="txt_composant">
                 <p>
                     NavBar classique avec un texte au <b style={{color: '#00d0ff'}}>centre horizontale</b> qui va passer à la
@@ -74,7 +74,7 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavLogo --*/}
-            <h2 class="title_composant" id="nav-logo"><b style={{color: '#00BBE5'}}>#NAV</b>-LOGO </h2>
+            <h2 class="title_composant"><b style={{color: '#00BBE5'}}>#NAV</b>-LOGO </h2>
             <span class="txt_composant">
                 <p>
                     Voici une NavBar qui possède un <b style={{color: '#00d0ff'}}>logo</b> sous format d'une image que vous avez
@@ -114,7 +114,7 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavSearchbar --*/}
-            <h2 class="title_composant" id="nav_searchbar"><b style={{color: '#00BBE5'}}>#NAV</b>-SEARCHBAR </h2>
+            <h2 class="title_composant"><b style={{color: '#00BBE5'}}>#NAV</b>-SEARCHBAR </h2>
             <span class="txt_composant">
                 <p>
                     Ici vous avez une NavBar qui possède une <b style={{color: '#00BBE5'}}>barre de recherche</b> pour
@@ -159,7 +159,7 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavSousTxt --*/}
-            <h2 class="title_composant" id="nav_soustxt"><b style={{color: '#00BBE5'}}>#NAV</b>-SOUS-TXT </h2>
+            <h2 class="title_composant"><b style={{color: '#00BBE5'}}>#NAV</b>-SOUS-TXT </h2>
             <span class="txt_composant">
                 <p>
                     La NavBar sous txt permet d'avoir une NavBar qui possède un <b style={{color: '#00BBE5'}}>sous menu </b> 
@@ -204,7 +204,7 @@ function NavComposant() {
             {/*---------------*/}
 
             {/*-- Composant NavSousTxt --*/}
-            <h2 class="title_composant" id="nav_soustxt"><b style={{color: '#00BBE5'}}>#NAV</b>-EXTEND </h2>
+            <h2 class="title_composant"><b style={{color: '#00BBE5'}}>#NAV</b>-EXTEND </h2>
             <span class="txt_composant">
                 <p>
                     La NavBar extend permet d'avoir une NavBar qui possède un <b style={{color: '#00BBE5'}}>menu déployable </b> 

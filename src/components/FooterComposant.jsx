@@ -29,7 +29,7 @@ function FooterComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant FooterBasic --*/}
-            <h2 class="title_composant" id="footer-basic"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-BASIC </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-BASIC </h2>
             <span class="txt_composant">
                 <p>
                     Un Footer <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>classique</b> mais suffisant pour n'importe quels projets web.
@@ -133,7 +133,7 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterMinimum --*/}
-            <h2 class="title_composant" id="footer-minimum"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-MINIMUM </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-MINIMUM </h2>
             <span class="txt_composant">
                 <p>
                     Le Footer minimum si vous nous souhaitez <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>pas mettre d'informations </b>
@@ -171,7 +171,7 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterVertical --*/}
-            <h2 class="title_composant" id="footer-vertical"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-VERTICAL </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-VERTICAL </h2>
             <span class="txt_composant">
                 <p>
                     Un Footer <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>vertical</b> qui permet de mettre beaucoup 
@@ -245,7 +245,7 @@ function FooterComposant() {
             {/*---------------*/}
 
             {/*-- Composant FooterRgpd --*/}
-            <h2 class="title_composant" id="footer-rgpd"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-RGPD </h2>
+            <h2 class="title_composant"><b style={{color: 'rgba(255, 0, 0, 0.65)'}}>#FOOTER</b>-RGPD </h2>
             <span class="txt_composant">
                 <p>
                     Un Footer spécialement pour mettre le <b style={{color: 'rgba(255, 0, 0, 0.65)'}}>RGPD en avant</b>, 

@@ -29,7 +29,7 @@ function BtnComposant() {
             <div>
             <div class="the_composants">
             {/*-- Composant Btn --*/}
-            <h2 class="title_composant" id="btn"> <b></b> #BTN </h2>
+            <h2 class="title_composant"><b></b> #BTN </h2>
             <span class="txt_composant">
                 <p>
                     Simple bouton, permettant de donner un style classique.
@@ -59,7 +59,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnBlack --*/}
-            <h2 class="title_composant" id="btn-black"> #BTN-<b style={{color: 'black'}}>BLACK</b>  </h2>
+            <h2 class="title_composant"> #BTN-<b style={{color: 'black'}}>BLACK</b>  </h2>
             <span class="txt_composant">
                 <p>
                     Bouton de couleur noir.
@@ -87,7 +87,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnRed --*/}
-            <h2 class="title_composant" id="btn-red"> #BTN-<b style={{color: 'red'}}>RED</b> </h2>
+            <h2 class="title_composant"> #BTN-<b style={{color: 'red'}}>RED</b> </h2>
             <span class="txt_composant">
                 <p>
                     Bouton de couleur rouge.
@@ -115,7 +115,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnBlue --*/}
-            <h2 class="title_composant" id="btn-blue"> #BTN-<b style={{color: 'blue'}}>BLUE</b> </h2>
+            <h2 class="title_composant"> #BTN-<b style={{color: 'blue'}}>BLUE</b> </h2>
             <span class="txt_composant">
                 <p>
                     Bouton de couleur bleu.
@@ -143,7 +143,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnGreen --*/}
-            <h2 class="title_composant" id="btn-green"> #BTN-<b style={{color: 'green'}}>GREEN</b>  </h2>
+            <h2 class="title_composant"> #BTN-<b style={{color: 'green'}}>GREEN</b>  </h2>
             <span class="txt_composant">
                 <p>
                     Bouton de couleur vert.
@@ -171,7 +171,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnSideUp --*/}
-            <h2 class="title_composant" id="btn-side-up"> #BTN-SIDE-UP </h2>
+            <h2 class="title_composant"> #BTN-SIDE-UP </h2>
             <span class="txt_composant">
                 <p>
                     Bouton avec une transition vers le haut (vous pouvez changer la couleur en allant dans la classe css)
@@ -199,7 +199,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnSideDown --*/}
-            <h2 class="title_composant" id="btn-side-down"> #BTN-SIDE-DOWN </h2>
+            <h2 class="title_composant"> #BTN-SIDE-DOWN </h2>
             <span class="txt_composant">
                 <p>
                     Bouton avec une transition vers le bas (vous pouvez changer la couleur en allant dans la classe css)
@@ -227,7 +227,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnSideLeft --*/}
-            <h2 class="title_composant" id="btn-side-left"> #BTN-SIDE-LEFT </h2>
+            <h2 class="title_composant"> #BTN-SIDE-LEFT </h2>
             <span class="txt_composant">
                 <p>
                     Bouton avec une transition vers la gauche (vous pouvez changer la couleur en allant dans la classe css)
@@ -255,7 +255,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnSideRight --*/}
-            <h2 class="title_composant" id="btn-side-right"> #BTN-SIDE-RIGHT </h2>
+            <h2 class="title_composant"> #BTN-SIDE-RIGHT </h2>
             <span class="txt_composant">
                 <p>
                     Bouton avec une transition vers la droite (vous pouvez changer la couleur en allant dans la classe css)
@@ -283,7 +283,7 @@ function BtnComposant() {
             {/*---------------*/}
 
             {/*-- Composant BtnHover --*/}
-            <h2 class="title_composant" id="btn-hover"> #BTN-HOVER </h2>
+            <h2 class="title_composant"> #BTN-HOVER </h2>
             <span class="txt_composant">
                 <p>
                     Bouton avec une transition quand vous passer la souris dessus 

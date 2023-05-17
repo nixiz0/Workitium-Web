@@ -1,71 +1,146 @@
-/* Composants Navbar style */
-.scroll-div {
-    background-color: #3e444a;
-    box-shadow: -5px -5px 8px rgba(0, 0, 0, 0.4);
-    padding: 1em;
+/* Navbar Extend */
+.custom_nav_extend-off {
     position: fixed;
-    border-radius: 4%;
-    margin: 1.2em 2.5em 1.5em 0.8em;
-    overflow-x: hidden;
-    width: auto;
-    max-height: 66.5%;
+    left: 0%;
+    top: 0%;
+    padding: 1em;
+    width: 92.3%;
 }
 
-    .sous_composants {
-        margin-left: 2em;
+    .custom_nav_extend-off img {
+        margin-left: 1em;
+        width: 2em;
+        height: auto;
+    }
+
+.custom_nav_extend {
+    background-color: rgb(50, 50, 50);
+    height: 30%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    padding: 1em;
+    border-radius: 0%;
+    width: 92.3%;
+    animation-name: SlideRight;
+    animation-duration: 0.1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    z-index: 1;
+}
+
+.custom_nav_extend_img {
+
+}
+    .custom_nav_extend_img img {
+        margin-left: 1em;
+        width: 2.5em;
+        height: auto;
+    }
+
+    .custom_nav_extend_img img:active {
+        margin-left: 1em;
+        width: 2.5em;
+        height: auto;
+    }
+
+.custom_nav_extend_ul {
+    margin-top: 1em;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+    .custom_nav_extend_ul li {
+        padding: 0.5em;
+        list-style: none;
+        margin-bottom: 0.5em;
+        border-radius: 3%;
+        background-color: rgb(27, 27, 27);
+        color: rgb(235, 235, 235);
+        transition: all 0.1s ease-in-out;
+    }
+
+    .custom_nav_extend_ul li:hover {
+        background-color: rgb(235, 235, 235);
+        color: rgb(27, 27, 27);
+        transition: all 0.1s ease-in-out;
+    }
+
+    .custom_nav_extend_ul a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .custom_nav_extend_ul a:hover {
+        text-decoration: none;
+    }
+
+.custom_nav_extend_show {
+    display: absolute;
+}
+
+.custom_nav_extend_none {
+    display: none;
+}
+
+@media (min-width:450px) {
+    .custom_nav_extend-off {
+        margin-top: 4.9em;
+        left: -1%;
+        top: 2%;
+        padding: 2em;
+        width: auto;
+    }
+    
+        .custom_nav_extend-off img {
+            margin-left: 1em;
+            width: 2.5em;
+            height: auto;
+        }
+
+    .custom_nav_extend {
+        margin-top: 4.9em;
+        left: -1%;
+        top: 2%;
+        padding: 2em;
+        border-radius: 2%;
+        width: auto;
+    }
+    
+    .custom_nav_extend_img {
+    
+    }
+        .custom_nav_extend_img img {
+            margin-left: 1em;
+            width: 2.5em;
+            height: auto;
+        }
+    
+    .custom_nav_extend_ul {
+        margin-top: 1em;
         font-size: 1.1em;
     }
-
-    .sous_composants h5 {
-        font-size: 1.35rem;
-        padding: 0.5rem 0rem 0.8rem 0rem;
-    }
-
-        .nav_composants {
-            margin-right: 1rem;
+    
+        .custom_nav_extend_ul li {
+            padding: 0.5em;
+            list-style: none;
+            margin-bottom: 0.5em;
+            border-radius: 3%;
         }
-
-        .nav_composants li {
-            padding: 0.2rem;
+    
+        .custom_nav_extend_ul a {
+            text-decoration: none;
         }
-
-            .nav_btn {
-                padding: 0.5rem 1.2rem 0.5rem 1.2rem;
-                text-decoration: none;
-                color: #fff;
-                font-weight: bold;
-                cursor: pointer;
-                transition: all 0.3s ease;
-                position: relative;
-                display: inline-block;
-                outline: none;
-                border-radius: 0.8rem;
-                background: #212529;
-            }
-            .nav_btn:hover {
-                background: #fff;
-                color: #212529
-            }
-
-
-@media (max-width: 850px) {
-    .scroll-div {
-        background-color: transparent;
-        box-shadow:none;
-        margin: 0em;
-        position: relative;
-        text-align: center;
-    }
 }
 
 
-@media (max-width: 599px) {
-    .scroll-div {
-        background-color: transparent;
-        box-shadow:none;
-        margin: 0em;
-        position: relative;
-        text-align: center;
-    }
+@keyframes SlideRight{
+    0% {
+        left: -100%;
+      }
+      100% {
+        left: -1;
+      }
 }
-/* -------------- */
+/* ----------------------------- */
+
