@@ -8,6 +8,10 @@ import '../css-style/composants.css'
 import '../css-style/composants-style.css'
 import '../workitium-css/Workitium.css'
 import icon_composant from '../0-ressources/icon logo composants.png'
+import form_basic from '../0-ressources/composants-ressources/form_basic.png'
+import form_password from '../0-ressources/composants-ressources/form_password.png'
+import form_connexion from '../0-ressources/composants-ressources/form_connexion.png'
+import form_contact from '../0-ressources/composants-ressources/form_contact.png'
 
 function FormComposant() {
   function copyTextarea(id) {
@@ -41,21 +45,7 @@ function FormComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <form class="form-basic" style={{margin: '0em'}}>
-                    <div class="basic_form-group">
-                      <label for="name">Nom</label>
-                      <input type="text" class="form-control" id="name" placeholder="Entrez votre nom"/>
-                    </div>
-                    <div class="basic_form-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-control" id="email" placeholder="Entrez votre email"/>
-                    </div>
-                    <div class="basic_form-group">
-                      <label for="message">Message</label>
-                      <input type="textarea" class="form-control" id="message" placeholder="Entrez votre message"/>
-                    </div>
-                    <button type="submit">Envoyer</button>
-                </form>
+                <img src={form_basic} alt="Form basic" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant--*/}
@@ -99,31 +89,7 @@ function FormComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <form class="form-password" style={{margin: '0em'}}>
-                    <div class="form-password-group">
-                      <label for="inputName">Nom</label>
-                      <input type="text" id="inputName" placeholder="Entrez votre nom"/>
-                    </div>
-                    <div class="form-password-group">
-                      <label for="inputFirstName">Prénom</label>
-                      <input type="text" id="inputFirstName" placeholder="Entrez votre prénom"/>
-                    </div>
-                    <div class="form-password-group">
-                      <label for="inputEmail">Email</label>
-                      <input type="email" id="inputEmail" placeholder="Entrez votre email"/>
-                    </div>
-                    <div class="form-password-group">
-                      <label for="inputPassword">Mot de passe</label>
-                      <input type="password" id="inputPassword" placeholder="Entrez votre mot de passe"/>
-                    </div>
-                    <div class="form-password-check">
-                      <input class="form-password-check-input" type="checkbox" id="conditions"/>
-                      <label class="form-password-check-label" for="conditions">
-                        J'accepte les conditions d'utilisation
-                      </label>
-                    </div>
-                    <button type="submit" class="form-password-btn">Envoyer</button>
-                </form>
+                <img src={form_password} alt="Form password" />
             </div>
             <div class="code_composants">
                 {/*-- Textarea code composant--*/}
@@ -177,17 +143,7 @@ function FormComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <form class="form-connexion" style={{margin: '0em'}}>
-                    <div class="form-connexion-group">
-                      <label for="email">Email:</label>
-                      <input type="email" class="form-connexion-control" id="email" placeholder="Entrez votre email"/>
-                    </div>
-                    <div class="form-connexion-group">
-                      <label for="password">Mot de passe:</label>
-                      <input type="password" class="form-connexion-control" id="password" placeholder="Entrez votre mot de passe"/>
-                    </div>
-                    <button type="submit" class="form-connexion-btn">Connexion</button>
-                </form>
+                <img src={form_connexion} alt="Form connexion" />
             </div>
             <div class="code_composants">
                 {/*--Textarea code composant --*/}
@@ -225,26 +181,7 @@ function FormComposant() {
                 </p> 
             </span>
             <div class="extrait_composants">
-                <form class="form-contact" style={{margin: '1em'}}>
-                    <div class="form-contact-group txt-c">
-                      <h2>Nous contacter</h2>
-                    </div>
-                    <div class="form-contact-group">
-                      <label for="name">Nom</label>
-                      <input type="text" class="form-contact-control" id="name" placeholder="Entrez votre nom"/>
-                    </div>
-                    <div class="form-contact-group">
-                      <label for="email">Email</label>
-                      <input type="email" class="form-contact-control" id="email" placeholder="Entrez votre email"/>
-                    </div>
-                    <div class="form-contact-group">
-                      <label for="password">Message</label>
-                      <input type="message" class="form-contact-control" id="message" placeholder="Entrez votre message"/>
-                    </div>
-                    <div class="form-contact-group txt-c">
-                      <button type="submit">Envoyer</button>
-                    </div>
-                </form>
+                <img src={form_contact} alt="Form contact" />
             </div>
             <div class="code_composants">
                 {/*Textarea code composant*/}
