@@ -311,6 +311,213 @@ function BtnComposant() {
             </div>
             {/*---------------*/}
 
+            {/*-- Composant BtnGlow --*/}
+            <h2 class="title_composant"> #BTN-GLOW </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton luminescent style néon, qui apparaît dès lors que l'on passe la souris dessus.
+                    <br />
+                    Aussi, au clique le background se change en style multi-couleur.
+                </p> 
+            </span>
+            <div class="extrait_composants" style={{overflowY: 'hidden'}}>
+                {/*eslint-disable-next-line*/}
+                <iframe
+                        src="https://codepen.io/initium0/full/PoyxbOq" 
+                        scrolling="no" frameborder="no" allowtransparency="true" loading="lazy">
+                </iframe>            
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea11"
+                cols="53"
+                rows="3"
+                readOnly
+                value={`<button class="btn-glow" type="button">Glow Button</button>
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea11')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant BtnBarsEffect --*/}
+            <h2 class="title_composant"> #BTN-BARS-EFFECT </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton faisant apparaître des barre parallèle en haut et en bas quand l'on passe sa souris dessus.
+                </p> 
+            </span>
+            <div class="extrait_composants">
+                {/*eslint-disable-next-line*/}
+                <iframe
+                        src="https://codepen.io/initium0/full/vYVQyVY" 
+                        scrolling="no" frameborder="no" allowtransparency="true" loading="lazy">
+                </iframe>     
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea12"
+                cols="53"
+                rows="2"
+                readOnly
+                value={`<div class="main-btn-bars-effect btn-bars-effect">
+    <span>HOVER ME</span>
+</div>   
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea12')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant BtnCrossEffect --*/}
+            <h2 class="title_composant"> #BTN-CROSS-EFFECT </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton formant une croix dès que l'on passe sa souris dessus.
+                </p> 
+            </span>
+            <div class="extrait_composants" >
+                {/*eslint-disable-next-line*/}
+                <iframe style={{height: '23em', marginTop: '-6em'}}
+                        src="https://codepen.io/initium0/full/GRYwNPp" 
+                        scrolling="no" frameborder="no" allowtransparency="true" loading="lazy">
+                </iframe>            
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea13"
+                cols="53"
+                rows="2"
+                readOnly
+                value={`<div class="main-btn-bars-effect btn-cross-effect">
+    <span>HOVER ME</span>
+</div> 
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea13')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant BtnBorderEffect --*/}
+            <h2 class="title_composant"> #BTN-BORDER-EFFECT </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton faisant apparaître une bordure quand l'on passe sa souris dessus.
+                </p> 
+            </span>
+            <div class="extrait_composants">
+                {/*eslint-disable-next-line*/}
+                <iframe
+                        src="https://codepen.io/initium0/full/eYPQBXK" 
+                        scrolling="no" frameborder="no" allowtransparency="true" loading="lazy">
+                </iframe> 
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea14"
+                cols="53"
+                rows="2"
+                readOnly
+                value={`<div class="main-btn-bars-effect btn-border-effect">
+    <span>HOVER ME</span>
+</div>
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea14')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant BtnSlice --*/}
+            <h2 class="title_composant"> #BTN-SLICE </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton qui découpe le texte quand l'on passe dessus avec la souris.
+                </p> 
+            </span>
+            <div class="extrait_composants">
+                <div class="main-btn-slice">
+                    {/* eslint-disable-next-line */}
+                    <a class="btn-slice" href="#">
+                        <div class="top"><span>Sliced Button</span></div>
+                        <div class="bottom"><span>Sliced Button</span></div>
+                    </a>
+                </div>  
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea15"
+                cols="53"
+                rows="2"
+                readOnly
+                value={`<div class="main-btn-slice">
+    <a class="btn-slice" href="#">
+        <div class="top"><span>Sliced Button</span></div>
+        <div class="bottom"><span>Sliced Button</span></div>
+    </a>
+</div>
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea15')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
+            {/*-- Composant BtnFlip --*/}
+            <h2 class="title_composant"> #BTN-FLIP </h2>
+            <span class="txt_composant">
+                <p>
+                    Bouton avec double texte, un texte qui apparaît par défaut et un autre 
+                    qui apparaît quand on passe sa souris dessus.
+                    <br />
+                    N'oublier pas de changer dans la balise html le texte front et back !
+                </p> 
+            </span>
+            <div class="extrait_composants">
+                {/* eslint-disable-next-line */}
+                <a style={{overflowY: 'hidden'}} href="#" class="btn-flip" data-back="Back" data-front="Front"></a>  
+            </div>
+            <div class="code_composants">
+                {/*-- Textarea code composant--*/}
+                <textarea
+                name="code"
+                id="textarea16"
+                cols="53"
+                rows="2"
+                readOnly
+                value={`<a href="#" class="btn-flip" data-back="Back" data-front="Front"></a>
+                      `}
+                />
+                {/*---------------*/}
+                <div class="btn_copy">
+                    <button onClick={() => copyTextarea('textarea16')} class="copy">Copy</button>
+                </div>
+            </div>
+            {/*---------------*/}
+
             {/*-- New Composant Place Here : --*/}
 
             {/*---------------*/}

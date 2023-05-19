@@ -26,6 +26,11 @@
         height: auto;
     }
 
+    .extrait_composants iframe {
+        width:50%;
+        height: auto;
+    }
+
         .extrait_nav-logo {
             margin-bottom: 0rem;
             font-size: 0.8rem;
@@ -131,6 +136,11 @@
 
     .extrait_composants img {
         width: 100%;
+        height: auto;
+    }
+
+    .extrait_composants iframe {
+        width:100%;
         height: auto;
     }
 
